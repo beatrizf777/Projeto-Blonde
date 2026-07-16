@@ -1,0 +1,267 @@
+<!-- frank ocean site -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>blonde.com</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&family=Special+Elite&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="assets/css/styles.css"/>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+  <div class="browser-chrome">
+
+    <header class="browser-header">
+      <nav class="browser-nav">
+        <div class="nav-dots">
+          <span class="dot dot--red"></span>
+          <span class="dot dot--yellow"></span>
+          <span class="dot dot--green"></span>
+        </div>
+        <div class="address-bar">blonde.com</div>
+        <button class="search-icon" aria-label="buscar">🔍</button>
+      </nav>
+
+      <nav class="site-nav">
+        <ul class="site-nav-list">
+          <li><a href="#home" class="site-nav-link">Início</a></li>
+          <li><a href="#bio" class="site-nav-link">Quem é</a></li>
+          <li><a href="#albuns" class="site-nav-link">Álbuns</a></li>
+          <li><a href="#links" class="site-nav-link">Links</a></li>
+          <li><a href="#contato" class="site-nav-link">Contato</a></li>
+          <li><a href="#sobre" class="site-nav-link">Sobre</a></li>
+          <li><a href="cadastro_albuns.html" id="nav-cadastro-item" class="site-nav-link d-none">+ Álbum</a></li>
+          <li><a href="meus-favoritos.html" id="nav-favoritos" class="site-nav-link d-none">Favoritos</a></li>
+          <li><span id="nav-saudacao" class="site-nav-link d-none" style="opacity:0.7;"></span></li>
+          <li><a href="#" id="nav-login" class="site-nav-link" data-bs-toggle="modal" data-bs-target="#loginModal">Login</a></li>
+          <li><a href="#" id="nav-logout" class="site-nav-link d-none" onclick="logoutUser(); return false;">Logout</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="page-main">
+
+      <section class="banner-section" id="home">
+        <img src="https://i.pinimg.com/736x/6d/38/b2/6d38b22e545437cbfd1840b75e1c642f.jpg" alt="Banner Frank Ocean" class="banner-img"/>
+        <div class="banner-overlay">
+          <h2 class="banner-title">blonde.com</h2>
+          <p class="banner-subtitle">Frank ocean</p>
+        </div>
+      </section>
+
+      <section class="carousel-section container my-4">
+        <div id="carouselDestaques" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner" id="carrossel-destaques-inner">
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselDestaques" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselDestaques" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Próximo</span>
+          </button>
+        </div>
+      </section>
+      <section class="container my-4">
+        <div class="form-group">
+          <input type="text" id="campo-pesquisa" placeholder="Buscar por título ou descrição..." class="form-control">
+        </div>
+      </section>
+
+      <section class="bio-section" id="bio">
+        <div class="row g-0">
+          <div class="col-12 col-md-3 bio-title-block">
+            <h1 class="bio-heading">Who is<br>Frank<br>Ocean?</h1>
+          </div>
+          <div class="col-12 col-md-6 bio-text-block">
+            <p>Frank Ocean é um cantor, compositor e produtor norte-americano conhecido pelo estilo emocional, experimental e autoral. Ele mistura R&B, soul e música alternativa de um jeito único, sempre com letras íntimas e sinceras.</p>
+          </div>
+          <div class="col-12 col-md-3 bio-facts-block">
+            <p><strong>Date of birth:</strong><br>October 28, 1987</p>
+            <p><strong>From:</strong><br>Long Beach, California</p>
+            <p><strong>Gênero musical:</strong><br>R&B alternativo</p>
+            <p><strong>Começo da carreira:</strong><br>2011</p>
+            <p><strong>Período Experimental</strong><br>Era Blonde (2016)</p>
+            <p><strong>Marca registrada:</strong><br>voz suave, letras íntimas e estética minimalista</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="albums-section" id="albuns">
+        <div class="row g-3" id="container-cards">
+        </div>
+      </section>
+
+      <section class="albums-section" id="grafico">
+        <h3 class="galeria-titulo">Avaliação dos Álbuns</h3>
+        <div style="position:relative; height:350px; width:100%;">
+          <canvas id="graficoAvaliacoes"></canvas>
+        </div>
+      </section>
+
+      <section class="links-section" id="links">
+        <div class="row g-3">
+          <div class="col-6 col-md-3">
+            <a href="https://open.spotify.com/intl-pt/artist/2h93pZq0e7k5yf4dywlkpM?si=5l11MNu8RdiB3P4XNrjBnw">
+            <article class="link-card">
+              <div class="link-img-wrap">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/e/e3/Frank_Ocean_2022_Blonded.jpg" alt="Spotify" class="link-img"/>
+              </div>
+              <span class="link-label" >Spotify</span>
+            </article>
+            </a>
+          </div>
+          <div class="col-6 col-md-3">
+            <a href="https://www.instagram.com/blonded/?hl=pt">
+            <article class="link-card">
+              <div class="link-img-wrap">
+                <img src="https://i.pinimg.com/236x/c7/0f/f3/c70ff38676e457ad2b09e88777f409f6.jpg" alt="Instagram" class="link-img"/>
+              </div>
+              <span class="link-label">Instagram</span>
+            </article>
+            </a>
+          </div>
+          <div class="col-6 col-md-3">
+            <a href="https://www.homer.com/?srsltid=AfmBOoqFtrXm4lDlKXdWSKJufFqaGgCu6OAmdGsH89RziDjUmEcUEiyC">
+            <article class="link-card">
+              <div class="link-img-wrap">
+                <img src="https://i.pinimg.com/736x/22/2f/9a/222f9a6d651004fbf1a5f259cefe1fed.jpg" alt="Loja de Álbuns" class="link-img"/>
+              </div>
+              <span class="link-label">Loja</span>
+            </article>
+            </a>
+          </div>
+          <div class="col-6 col-md-3">
+            <a href="https://www.youtube.com/@blonded">
+            <article class="link-card">
+              <div class="link-img-wrap">
+                <img src="https://yt3.googleusercontent.com/h2Z14HrbzuHSEAOkuGPYzzW9RnXWzr_8xH_xZnoK9s5XQmqa_khQEvpdFeDoMbLL5iP8a6Vi2w=s160-c-k-c0x00ffffff-no-rj" alt="YouTube" class="link-img"/>
+              </div>
+              <span class="link-label">YouTube</span>
+            </article>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="form-section" id="contato">
+        <h2 class="form-title">Se increva para receber atualizações do artista</h2>
+        <form class="subscribe-form" action="#" method="post">
+          <div class="row g-3">
+            <div class="col-12 col-md-6">
+              <div class="form-group">
+                <label for="nome" class="form-label">Nome</label>
+                <input type="text" id="nome" name="nome" class="form-input" placeholder="seu nome" required/>
+              </div>
+            </div>
+            <div class="col-12 col-md-6">
+              <div class="form-group">
+                <label for="email" class="form-label">E-mail</label>
+                <input type="email" id="email" name="email" class="form-input" placeholder="seu@email.com" required/>
+              </div>
+            </div>
+          </div>
+          <button type="submit" class="form-btn mt-3">Inscrever →</button>
+        </form>
+      </section>
+
+      <section class="sobre-section" id="sobre">
+        <div class="sobre-inner">
+          
+          <span class="sobre-tag">criado por</span>
+          <h2 class="sobre-nome">Beatriz Carvalho</h2>
+          <img src="assets/img/eu.jpg"
+            alt="Beatriz Carvalho"
+            class="rounded-circle"
+            width="150">
+          <p class="sobre-curso">Engenharia de Software</p>
+          <p class="sobre-desc">Fan page criada como projeto acadêmico, explorando HTML, CSS e JavaScript com dados dinâmicos via JSON Server.</p>
+          <a href="https://www.linkedin.com/in/beatriz-ferreira-3330292b4/" target="_blank">LinkedIn</a>
+
+        </div>
+      </section>
+
+    </main>
+
+    <footer class="site-footer">
+      <nav class="footer-nav">
+        <a href="#bio" class="footer-link">bio</a>
+        <a href="#albuns" class="footer-link">álbuns</a>
+        <a href="#links" class="footer-link">links</a>
+        <a href="#contato" class="footer-link">contato</a>
+        <a href="#sobre" class="footer-link">sobre</a>
+      </nav>
+      <p class="footer-copy">blonde.com · fan page oficial · 2026</p>
+    </footer>
+  </div>
+
+  <!-- MODAL DE LOGIN -->
+  <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content" style="background-color: var(--bg-inner); border: 2px solid var(--border);">
+        <div class="modal-header" style="border-bottom: 1.5px solid var(--border);">
+          <h5 class="modal-title" id="loginModalLabel" style="font-family:'Special Elite';">Login</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+        </div>
+        <div class="modal-body">
+          <div id="login-msg" style="display:none; font-family:'Courier Prime',monospace; font-size:13px; margin-bottom:12px; padding:8px 12px; border-radius:6px;"></div>
+          <div class="form-group mb-3">
+            <label class="form-label">Usuário</label>
+            <input type="text" id="username" class="form-input" placeholder="Digite seu usuário"/>
+          </div>
+          <div class="form-group mb-3">
+            <label class="form-label">Senha</label>
+            <input type="password" id="password" class="form-input" placeholder="Digite sua senha"/>
+          </div>
+          <p class="text-center font-monospace" style="font-size:12px; margin-bottom:10px; opacity:0.7;">Escolha o perfil de acesso:</p>
+          <div class="d-flex flex-column gap-2">
+            <button onclick="entrarComo()">
+              Entrar
+            </button>
+          </div>
+          <p class="text-center mt-3" style="font-family:'Courier Prime',monospace; font-size:12px;">
+            Ainda não tem conta? <a href="cadastro_usuario.html">Criar conta</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/scripts/login.js"></script>
+  <script src="assets/scripts/favoritos.js"></script>
+  <script src="assets/scripts/app.js"></script>
+
+  <script>
+    async function entrarComo() {
+      const username = document.getElementById('username').value.trim();
+      const password = document.getElementById('password').value.trim();
+      const msgEl = document.getElementById('login-msg');
+
+    if (!username || !password) {
+      msgEl.textContent = 'Preencha usuário e senha.';
+      msgEl.style.display = 'block';
+      msgEl.style.background = '#f7d6d6';
+      msgEl.style.color = '#a00000';
+      return;
+    }
+
+    const sucesso = await loginUser(username, password);
+
+    if (sucesso) {
+      window.location.reload();
+    } else {
+      msgEl.textContent = 'Usuário ou senha incorretos.';
+      msgEl.style.display = 'block';
+    msgEl.style.background = '#f7d6d6';
+      msgEl.style.color = '#a00000';
+    }
+  }
+  </script>
+</body>
+</html>

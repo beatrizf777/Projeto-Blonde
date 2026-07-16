@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meus Favoritos | blonde.com</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&family=Special+Elite&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+<div class="browser-chrome">
+    <header class="browser-header">
+        <nav class="browser-nav">
+            <div class="nav-dots">
+                <span class="dot dot--red"></span>
+                <span class="dot dot--yellow"></span>
+                <span class="dot dot--green"></span>
+            </div>
+            <div class="address-bar">blonde.com / favoritos</div>
+            <a href="index.html" class="search-icon text-decoration-none" style="font-size:13px; font-weight:700; font-family:var(--font-mono);">↩</a>
+        </nav>
+    </header>
+
+    <main class="page-main py-4">
+        <section class="container">
+            <h1 class="text-center mb-4" style="font-family:'Special Elite';">❤️ Meus Favoritos</h1>
+
+            <div class="text-center mb-4">
+                <a href="index.html" class="btn" style="background:var(--bg); border:1.5px solid var(--border); font-family:'Courier Prime',monospace;">
+                    ← Voltar para a home
+                </a>
+            </div>
+
+            <div id="container-favoritos" class="row g-4"></div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <nav class="footer-nav">
+            <a href="index.html#bio" class="footer-link">bio</a>
+            <a href="index.html#albuns" class="footer-link">álbuns</a>
+            <a href="index.html#links" class="footer-link">links</a>
+            <a href="index.html#contato" class="footer-link">contato</a>
+            <a href="index.html#sobre" class="footer-link">sobre</a>
+        </nav>
+        <p class="footer-copy">blonde.com · fan page oficial · 2026</p>
+    </footer>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="assets/scripts/login.js"></script>
+<script src="assets/scripts/favoritos.js"></script>
+<script src="assets/scripts/app.js"></script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", () => {
+        const usuario = getUsuarioLogado();
+        if (!usuario) {
+            alert("Você precisa estar logado para acessar os favoritos!");
+            window.location.href = "index.html";
+        }
+    });
+</script>
+</body>
+</html>

@@ -1,0 +1,455 @@
+{
+  "albuns": [
+    {
+      "id": "1",
+      "nome": "nostalgia, ULTRA.",
+      "descricaoCurta": "A mixtape de estreia que colocou Frank Ocean no mapa.",
+      "descricaoCompleta": "Nostalgia, Ultra é a mixtape de estreia de Frank Ocean, lançada de forma independente em 2011. O projeto conta com samples marcantes de bandas como Coldplay e Radiohead, abordando temas de relacionamentos modernos e críticas sociais. Foi um marco no R&B alternativo.",
+      "imagem": "https://upload.wikimedia.org/wikipedia/pt/thumb/4/4b/Nostalgia%2C_Ultra_-_Frank_Ocean.jpeg/250px-Nostalgia%2C_Ultra_-_Frank_Ocean.jpeg",
+      "categoria": "Mixtape",
+      "lancamento": "2011-02-16",
+      "duracao": "42:06",
+      "destaque": true,
+      "tags": [
+        "mixtape",
+        "r&b",
+        "estreia",
+        "2011",
+        "alternativo"
+      ]
+    },
+    {
+      "id": "2",
+      "nome": "channel ORANGE",
+      "descricaoCurta": "O aclamado álbum de estreia oficial que venceu o Grammy.",
+      "descricaoCompleta": "Channel Orange revolucionou o R&B contemporâneo em 2012. Com uma produção rica que mistura neo-soul, funk e pop, o álbum conta histórias cinematográficas sobre desamor, vício e dualidade. Venceu o Grammy de Melhor Álbum de R&B Urbano.",
+      "imagem": "https://akamai.sscdn.co/letras/360x360/albuns/2/0/b/d/273721700826551.jpg",
+      "categoria": "Álbum de Estúdio",
+      "lancamento": "2012-07-10",
+      "duracao": "55:41",
+      "destaque": false,
+      "tags": [
+        "grammy",
+        "r&b",
+        "neo-soul",
+        "2012",
+        "funk"
+      ]
+    },
+    {
+      "id": "3",
+      "nome": "Blonde",
+      "descricaoCurta": "Uma obra-prima minimalista e experimental.",
+      "descricaoCompleta": "Lançado de forma independente em 2016, Blonde afasta-se das batidas tradicionais do R&B para abraçar arranjos de guitarra minimalistas, vocais modificados e colagens sonoras abstratas e introspectivas. Considerado um dos melhores álbuns da década.",
+      "imagem": "https://images.squarespace-cdn.com/content/v1/58b866f417bffc4dc469acab/1503407866174-HRVG5YI97HGWRU7CNJT4/image-asset.jpeg",
+      "categoria": "Álbum de Estúdio",
+      "lancamento": "2016-08-20",
+      "duracao": "60:08",
+      "destaque": true,
+      "tags": [
+        "experimental",
+        "minimalista",
+        "2016",
+        "indie",
+        "introspectivo"
+      ]
+    },
+    {
+      "id": "4",
+      "nome": "Endless",
+      "descricaoCurta": "Álbum visual exclusivo Apple Music, ambient e experimental.",
+      "descricaoCompleta": "Endless é um álbum visual lançado exclusivamente no Apple Music em 2016, um dia antes de Blonde. Apresenta uma estética ambient e experimental, com Frank Ocean construindo uma escada de madeira em um vídeo em loop. É considerado mais uma obra de arte do que um álbum tradicional.",
+      "imagem": "https://i.scdn.co/image/ab67616d0000b2734c79d5ec52a6d0302f3add25",
+      "categoria": "Álbum Visual",
+      "lancamento": "2016-08-18",
+      "duracao": "45:00",
+      "destaque": false,
+      "tags": [
+        "ambient",
+        "visual",
+        "apple music",
+        "2016",
+        "experimental"
+      ]
+    },
+    {
+      "id": "5",
+      "nome": "Novacane",
+      "descricaoCurta": "Single de estreia que viralizou e abriu as portas da indústria.",
+      "descricaoCompleta": "Novacane foi o single de estreia de Frank Ocean, lançado em 2011 como parte da mixtape nostalgia, ULTRA. A faixa apresenta uma produção hipnótica e letra surreal sobre uma estudante de odontologia, misturando humor ácido com melancolia.",
+      "imagem": "https://i.pinimg.com/736x/6d/38/b2/6d38b22e545437cbfd1840b75e1c642f.jpg",
+      "categoria": "Single",
+      "lancamento": "2011-05-02",
+      "duracao": "4:08",
+      "destaque": false,
+      "tags": [
+        "single",
+        "estreia",
+        "2011",
+        "hipnótico",
+        "viral"
+      ]
+    },
+    {
+      "id": "6",
+      "nome": "Pyramids",
+      "descricaoCurta": "Épico de 9 minutos sobre amor, poder e mitologia.",
+      "descricaoCompleta": "Pyramids é a faixa mais ambiciosa de channel ORANGE, com quase 9 minutos de duração. Começa na antiguidade egípcia e termina no presente, criando uma narrativa épica sobre uma mulher chamada Cleopatra. A produção transita entre funk, eletrônico e jazz.",
+      "imagem": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Frank_Ocean_2022_Blonded.jpg",
+      "categoria": "Single",
+      "lancamento": "2012-07-10",
+      "duracao": "9:55",
+      "destaque": true,
+      "tags": [
+        "épico",
+        "funk",
+        "jazz",
+        "2012",
+        "narrativa"
+      ]
+    },
+    {
+      "id": "7",
+      "nome": "Nikes",
+      "descricaoCurta": "Abertura de Blonde com estética glitter e crítica ao consumismo.",
+      "descricaoCompleta": "Nikes abre o álbum Blonde com uma voz processada que parece etérea. A letra critica o consumismo e a cultura dos sneakers enquanto homenageia A$AP Yams e Trayvon Martin. O videoclipe é um dos mais icônicos da carreira de Frank Ocean.",
+      "imagem": "https://i.pinimg.com/736x/22/2f/9a/222f9a6d651004fbf1a5f259cefe1fed.jpg",
+      "categoria": "Single",
+      "lancamento": "2016-08-20",
+      "duracao": "5:14",
+      "destaque": false,
+      "tags": [
+        "blonde",
+        "crítica social",
+        "glitter",
+        "2016",
+        "videoclipe"
+      ]
+    },
+    {
+      "id": "8",
+      "nome": "DHL",
+      "descricaoCurta": "Single raro de 2019 com produção caótica e enérgica.",
+      "descricaoCompleta": "DHL foi lançado de surpresa em 2019, quebrando anos de silêncio de Frank Ocean. A faixa tem uma produção caótica e enérgica, muito diferente do minimalismo de Blonde. A letra aborda riqueza, luxo e a vida pós-fama de maneira irônica e direta.",
+      "imagem": "https://i.pinimg.com/236x/c7/0f/f3/c70ff38676e457ad2b09e88777f409f6.jpg",
+      "categoria": "Single",
+      "lancamento": "2019-10-21",
+      "duracao": "4:04",
+      "destaque": false,
+      "tags": [
+        "2019",
+        "surpresa",
+        "energético",
+        "luxo",
+        "raro"
+      ]
+    },
+    {
+      "id": "9",
+      "nome": "Swim Good",
+      "descricaoCurta": "Balada emocional sobre afogamento metafórico.",
+      "descricaoCompleta": "Swim Good é uma das faixas mais emotivas da mixtape nostalgia, ULTRA. A letra narra uma jornada em um Lincoln Town Car rumo ao oceano, usando o afogamento como metáfora para lidar com a dor emocional. O videoclipe é igualmente impactante.",
+      "imagem": "https://upload.wikimedia.org/wikipedia/pt/thumb/4/4b/Nostalgia%2C_Ultra_-_Frank_Ocean.jpeg/250px-Nostalgia%2C_Ultra_-_Frank_Ocean.jpeg",
+      "categoria": "Single",
+      "lancamento": "2011-10-11",
+      "duracao": "3:54",
+      "destaque": false,
+      "tags": [
+        "balada",
+        "emotivo",
+        "2011",
+        "metáfora",
+        "nostalgia"
+      ]
+    },
+    {
+      "id": "10",
+      "nome": "Nights",
+      "descricaoCurta": "Faixa com a famosa virada de beat na metade exata.",
+      "descricaoCompleta": "Nights é frequentemente citada como a melhor faixa de Blonde. A música se divide em duas partes com uma virada de beat precisa exatamente na metade do álbum. A primeira parte é introspectiva e melancólica; a segunda explode em energia. Considerada uma obra-prima da produção moderna.",
+      "imagem": "https://images.squarespace-cdn.com/content/v1/58b866f417bffc4dc469acab/1503407866174-HRVG5YI97HGWRU7CNJT4/image-asset.jpeg",
+      "categoria": "Álbum de Estúdio",
+      "lancamento": "2016-08-20",
+      "duracao": "5:07",
+      "destaque": true,
+      "tags": [
+        "blonde",
+        "beat switch",
+        "2016",
+        "obra-prima",
+        "melancólico"
+      ]
+    },
+    {
+      "id": "11",
+      "nome": "Self Control",
+      "descricaoCurta": "Hino de amor não correspondido com arranjo de guitarra delicado.",
+      "descricaoCompleta": "Self Control é uma das faixas mais aclamadas de Blonde. Com um arranjo de guitarra delicado e vocal etéreo, a letra explora amor de verão, desejo não correspondido e a passagem do tempo. O coro final, com vozes sobrepostas, é um dos momentos mais emocionantes da discografia.",
+      "imagem": "https://i.scdn.co/image/ab67616d0000b2734c79d5ec52a6d0302f3add25",
+      "categoria": "Álbum de Estúdio",
+      "lancamento": "2016-08-20",
+      "duracao": "4:10",
+      "destaque": false,
+      "tags": [
+        "blonde",
+        "amor",
+        "guitarra",
+        "2016",
+        "emotivo"
+      ]
+    }
+  ],
+  "categorias": [
+    {
+      "id": "1",
+      "nome": "Álbum de Estúdio",
+      "descricao": "Projetos oficiais lançados por gravadoras ou de forma independente."
+    },
+    {
+      "id": "2",
+      "nome": "Mixtape",
+      "descricao": "Projetos distribuídos gratuitamente, geralmente no início da carreira."
+    },
+    {
+      "id": "3",
+      "nome": "Single",
+      "descricao": "Faixas lançadas individualmente, com ou sem álbum associado."
+    },
+    {
+      "id": "4",
+      "nome": "Álbum Visual",
+      "descricao": "Projetos que combinam música e elementos visuais como forma de arte unificada."
+    }
+  ],
+  "atracoes": [
+    {
+      "id": "1",
+      "albumId": "1",
+      "nome": "Novacane (Clipe)",
+      "descricao": "Visual impactante da era de estreia.",
+      "imagem": "https://i.pinimg.com/736x/6d/38/b2/6d38b22e545437cbfd1840b75e1c642f.jpg"
+    },
+    {
+      "id": "2",
+      "albumId": "1",
+      "nome": "Swim Good Room",
+      "descricao": "Cena icônica do Lincoln Town Car.",
+      "imagem": "https://i.pinimg.com/236x/c7/0f/f3/c70ff38676e457ad2b09e88777f409f6.jpg"
+    },
+    {
+      "id": "3",
+      "albumId": "2",
+      "nome": "Pyramids Live",
+      "descricao": "Frank Ocean tocando a faixa de 9 minutos.",
+      "imagem": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Frank_Ocean_2022_Blonded.jpg"
+    },
+    {
+      "id": "4",
+      "albumId": "2",
+      "nome": "Lost Session",
+      "descricao": "Registros visuais da turnê mundial de 2012.",
+      "imagem": "https://i.pinimg.com/736x/22/2f/9a/222f9a6d651004fbf1a5f259cefe1fed.jpg"
+    },
+    {
+      "id": "5",
+      "albumId": "3",
+      "nome": "Nikes Music Video",
+      "descricao": "Estética visual com glitter e carros esportivos.",
+      "imagem": "https://i.pinimg.com/736x/6d/38/b2/6d38b22e545437cbfd1840b75e1c642f.jpg"
+    },
+    {
+      "id": "6",
+      "albumId": "3",
+      "nome": "Nights Studio",
+      "descricao": "Onde a famosa virada de batida aconteceu.",
+      "imagem": "https://images.squarespace-cdn.com/content/v1/58b866f417bffc4dc469acab/1503407866174-HRVG5YI97HGWRU7CNJT4/image-asset.jpeg"
+    }
+  ],
+  "comentarios": [
+    {
+      "id": "1",
+      "albumId": "3",
+      "usuario": "ana_music",
+      "texto": "Blonde mudou minha vida.",
+      "data": "2024-01-10"
+    },
+    {
+      "id": "2",
+      "albumId": "2",
+      "usuario": "joao_rb",
+      "texto": "Channel Orange é perfeito do início ao fim.",
+      "data": "2024-02-15"
+    },
+    {
+      "id": "3",
+      "albumId": "1",
+      "usuario": "mari_beats",
+      "texto": "Nostalgia Ultra ainda é subestimada.",
+      "data": "2024-03-01"
+    }
+  ],
+  "avaliacoes": [
+    {
+      "id": "1",
+      "albumId": "1",
+      "nota": 9.2
+    },
+    {
+      "id": "2",
+      "albumId": "2",
+      "nota": 9.8
+    },
+    {
+      "id": "3",
+      "albumId": "3",
+      "nota": 9.9
+    },
+    {
+      "id": "4",
+      "albumId": "4",
+      "nota": 8.5
+    }
+  ],
+  "favoritos": [
+    {
+      "id": "1",
+      "usuarioId": "187cb7e5-e097-4224-8bc7-b610c855e2b1",
+      "albumId": "3"
+    },
+    {
+      "usuarioId": "ec37c83d-4b7f-458d-9e10-3fda7d37cd3e",
+      "albumId": "2",
+      "id": "tGtuqIIxsHU"
+    },
+    {
+      "usuarioId": "ec37c83d-4b7f-458d-9e10-3fda7d37cd3e",
+      "albumId": "2",
+      "id": "Po70hjgilAk"
+    },
+    {
+      "usuarioId": "ec37c83d-4b7f-458d-9e10-3fda7d37cd3e",
+      "albumId": "2",
+      "id": "7qfvkUeEW4U"
+    },
+    {
+      "usuarioId": "ec37c83d-4b7f-458d-9e10-3fda7d37cd3e",
+      "albumId": "2",
+      "id": "E5g1kcNGWaA"
+    },
+    {
+      "usuarioId": "ec37c83d-4b7f-458d-9e10-3fda7d37cd3e",
+      "albumId": "2",
+      "id": "pZF0ivtML_Y"
+    },
+    {
+      "usuarioId": "ec37c83d-4b7f-458d-9e10-3fda7d37cd3e",
+      "albumId": "2",
+      "id": "r6tMFG3B3ic"
+    },
+    {
+      "usuarioId": "ec37c83d-4b7f-458d-9e10-3fda7d37cd3e",
+      "albumId": "2",
+      "id": "8erx1vUGo_I"
+    },
+    {
+      "usuarioId": "ec37c83d-4b7f-458d-9e10-3fda7d37cd3e",
+      "albumId": "3",
+      "id": "dHktRe1nOIo"
+    },
+    {
+      "usuarioId": "ec37c83d-4b7f-458d-9e10-3fda7d37cd3e",
+      "albumId": "2",
+      "id": "ta7chwX0JsQ"
+    },
+    {
+      "usuarioId": "ec37c83d-4b7f-458d-9e10-3fda7d37cd3e",
+      "albumId": "2",
+      "id": "2Wetni805Vo"
+    },
+    {
+      "usuarioId": "ec37c83d-4b7f-458d-9e10-3fda7d37cd3e",
+      "albumId": "2",
+      "id": "rpNk9sKQccA"
+    },
+    {
+      "usuarioId": "ec37c83d-4b7f-458d-9e10-3fda7d37cd3e",
+      "albumId": "2",
+      "id": "MM38-LGwb0I"
+    },
+    {
+      "usuarioId": "ec37c83d-4b7f-458d-9e10-3fda7d37cd3e",
+      "albumId": "2",
+      "id": "IMs3LMkdmLc"
+    },
+    {
+      "usuarioId": "ec37c83d-4b7f-458d-9e10-3fda7d37cd3e",
+      "albumId": "2",
+      "id": "viqFqQUIy24"
+    },
+    {
+      "usuarioId": "ec37c83d-4b7f-458d-9e10-3fda7d37cd3e",
+      "albumId": "2",
+      "id": "0r4PLaWXXbE"
+    },
+    {
+      "usuarioId": "ec37c83d-4b7f-458d-9e10-3fda7d37cd3e",
+      "albumId": "2",
+      "id": "iVVWdyqBdA8"
+    },
+    {
+      "usuarioId": "ec37c83d-4b7f-458d-9e10-3fda7d37cd3e",
+      "albumId": "5",
+      "id": "Zcwr35DA1wY"
+    },
+    {
+      "usuarioId": "ec37c83d-4b7f-458d-9e10-3fda7d37cd3e",
+      "albumId": "2",
+      "id": "kKQ0FpAqL9w"
+    },
+    {
+      "usuarioId": "ec37c83d-4b7f-458d-9e10-3fda7d37cd3e",
+      "albumId": "2",
+      "id": "c4PpCAgGhDw"
+    },
+    {
+      "usuarioId": "187cb7e5-e097-4224-8bc7-b610c855e2b1",
+      "albumId": "2",
+      "id": "XPiY6YvrcAk"
+    }
+  ],
+  "usuarios": [
+    {
+      "id": "187cb7e5-e097-4224-8bc7-b610c855e2b1",
+      "login": "admin",
+      "senha": "123",
+      "nome": "Beatriz Carvalho",
+      "email": "bia@email.com",
+      "admin": true
+    },
+    {
+      "id": "ec37c83d-4b7f-458d-9e10-3fda7d37cd3e",
+      "login": "user",
+      "senha": "123",
+      "nome": "Usuário Comum",
+      "email": "user@email.com",
+      "admin": false
+    },
+    {
+      "nome": "123",
+      "login": "123",
+      "senha": "123",
+      "email": "123@gmail.com",
+      "admin": false,
+      "id": "jMw-QCiFq0c"
+    },
+    {
+      "nome": "123",
+      "login": "123",
+      "senha": "123",
+      "email": "123@gmail.com",
+      "admin": false,
+      "id": "j0YF-3wVCwA"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
